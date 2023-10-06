@@ -48,16 +48,16 @@ totalreg = Object.keys(global.db.data.users).length
 rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
 try{
 let estado = `*╭𝄗𝄗✦ --${lenguajeGB.smsEstado1()}-- ✦𝄗𝄗⬣*
- ⎸ *⍟ ${lenguajeGB.smsEstado2()}*
- ⎸ ❉ ➺ ${vs}
+ ⎸ *𖤍 ${lenguajeGB.smsEstado2()}*
+ ⎸ ꕥ ➺ ${vs}
  ⎸ ┈┈┈┈┈┈┈┈┈┈┈
- ⎸ ❉ *${lenguajeGB.smsEstado3()}* ➺ *_${Object.keys(global.db.data.users).length}_*
- ⎸ ❉ *${lenguajeGB.smsEstado4()}* ➺ *_${rtotalreg}/${totalreg}_*
- ⎸ ❉ *${lenguajeGB.smsEstado5()}* ➺ *_${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_* 
- ⎸ ❉ *${lenguajeGB.smsEstado6()}* ➺ *_${Object.entries(global.db.data.users).filter(user => user[1].banned).length}_* 
+ ⎸ ꕥ *${lenguajeGB.smsEstado3()}* ➺ *_${Object.keys(global.db.data.users).length}_*
+ ⎸ ꕥ *${lenguajeGB.smsEstado4()}* ➺ *_${rtotalreg}/${totalreg}_*
+ ⎸ ꕥ *${lenguajeGB.smsEstado5()}* ➺ *_${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_* 
+ ⎸ ꕥ *${lenguajeGB.smsEstado6()}* ➺ *_${Object.entries(global.db.data.users).filter(user => user[1].banned).length}_* 
  ⎸ ┈┈┈┈┈┈┈┈┈┈┈
- ⎸ ❉ *${lenguajeGB.smsEstado7()}* ➺ *_${uptime}_*
-*╰𝄗𝄗𝄗𝄗𝄗⬣*`.trim()
+ ⎸ ꕥ *${lenguajeGB.smsEstado7()}* ➺ *_${uptime}_*
+*╰𝄗𝄗𝄗𝄗𝄗𖤍*`.trim()
 await conn.sendFile(m.chat, gataImg.getRandom(), 'gata.jpg', estado, fkontak)
 } catch (e) {
 reportError(e)
@@ -87,17 +87,17 @@ break
 try{
 let str = `
 ${lenguajeGB.smsGrupoOfc1()}
-_⭔ ${grupo[0]}_\n
-_⭔ ${grupo[1]}_\n
-_⭔ ${grupo[2]}_\n
-_⭔ ${grupo[3]}_\n
-_⭔ ${grupo[4]}_\n
-_⭔ ${grupo[5]}_\n\n
+_❥︎ ${grupo[0]}_\n
+_❥︎ ${grupo[1]}_\n
+_❥︎ ${grupo[2]}_\n
+_❥︎ ${grupo[3]}_\n
+_❥︎ ${grupo[4]}_\n
+_❥︎ ${grupo[5]}_\n\n
 ${lenguajeGB.smsGrupoOfc2()}
-_⭔ ${grupo[6]}_\n
-_⭔ ${grupo[7]}_\n
-_⭔ ${grupo[8]}_\n
-_⭔ ${grupo[9]}_`.trim()
+_❥︎ ${grupo[6]}_\n
+_❥︎ ${grupo[7]}_\n
+_❥︎ ${grupo[8]}_\n
+_❥︎ ${grupo[9]}_`.trim()
 await conn.sendFile(m.chat, gataImg.getRandom(), 'gata.jpg', str, fkontak)   
 } catch (e) {
 reportError(e)
@@ -204,16 +204,16 @@ let speed = neww - old
 let info = `
 *${lenguajeGB.smsCreInfo().slice(0, -1)}*
 🌺꙰᠁❥ *◜${lenguajeGB.smsBT1()}◞* ⇢ ${author}
-🌼꙰᠁❥ *◜${lenguajeGB.smsBT2()}◞* ⇢ ${vs}
-🌺꙰᠁❥ *◜${lenguajeGB.smsBT3()}◞* ⇢ ( ${usedPrefix} )
-🌻꙰᠁❥ *◜${lenguajeGB.smsBT4()}◞* ⇢ ${chats.length - groups.length}
-🌼꙰᠁❥ *◜${lenguajeGB.smsBT5()}◞* ⇢ ${groups.length}
+🌺᠁❥ *◜${lenguajeGB.smsBT2()}◞* ⇢ ${vs}
+🌺᠁❥ *◜${lenguajeGB.smsBT3()}◞* ⇢ ( ${usedPrefix} )
+🌺᠁❥ *◜${lenguajeGB.smsBT4()}◞* ⇢ ${chats.length - groups.length}
+🌺꙰᠁❥ *◜${lenguajeGB.smsBT5()}◞* ⇢ ${groups.length}
 🌺꙰᠁❥ *◜${lenguajeGB.smsBT6()}◞* ⇢ ${chats.length}
-🌻꙰᠁❥ *◜${lenguajeGB.smsBT7()}◞* ⇢ ${uptime}
-🌼꙰᠁❥ *◜${lenguajeGB.smsBT8()}◞* ⇢ ${totalreg}
+🌺᠁❥ *◜${lenguajeGB.smsBT7()}◞* ⇢ ${uptime}
+🌺᠁❥ *◜${lenguajeGB.smsBT8()}◞* ⇢ ${totalreg}
 🌺꙰᠁❥ *◜${lenguajeGB.smsEstado4().toUpperCase()}◞* ⇢ ${rtotalreg}/${totalreg}
-🌻꙰᠁❥ *◜${lenguajeGB.smsVl1()}◞* ⇢ ${(speed * 1000).toFixed(0) / 1000}
-🌼꙰᠁❥ *◜${lenguajeGB.smsBT9()}◞* ⇢ ${totaljadibot.length}`.trim()
+🌺᠁❥ *◜${lenguajeGB.smsVl1()}◞* ⇢ ${(speed * 1000).toFixed(0) / 1000}
+🌺᠁❥ *◜${lenguajeGB.smsBT9()}◞* ⇢ ${totaljadibot.length}`.trim()
 
 await conn.sendFile(m.chat, gataImg.getRandom(), 'gata.jpg', info, fkontak) 
 } catch (e) {
@@ -236,12 +236,12 @@ ofc = await conn.getName(number + '@s.whatsapp.net') //String(contact[1])
 let biografia = await conn.fetchStatus(number +'@s.whatsapp.net').catch(_ => 'undefined')
 let bio = biografia.status?.toString() || `${desc2 == '' ? lenguajeGB.smsContacto2() : desc2}`
 nombre = official[0][0] == String(contact[0]) ? official[0][1] : official[1][0] == String(contact[0]) ? official[1][1] : official[2][0] == String(contact[0]) ? official[2][1] : official[3][0] == String(contact[0]) ? official[3][1] : lenguajeGB.smsContacto3() 
-description = official[0][0] == String(contact[0]) ? 'Solo temas de GataBot' : official[1][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : official[2][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : official[3][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : desc === '' ? lenguajeGB.smsContacto5() : desc
-correo = official[0][0] == String(contact[0]) ? 'socialplus.gata@gamil.com' : official[1][0] == String(contact[0]) ? 'thelolibotm@gmail.com' : official[2][0] == String(contact[0]) ? 'alexismaldonado90700@gmail.com' : mail === '' ? lenguajeGB.smsContacto6() : mail
-lugar = official[0][0] == String(contact[0]) ? '🇪🇨 Ecuador' : official[1][0] == String(contact[0]) ? '🇦🇷 Argentina' : official[2][0] == String(contact[0]) ? '🇲🇽 México' : official[3][0] == String(contact[0]) ? '🇧🇷 Brazil' : country === '' ? lenguajeGB.smsContacto7() : country
-enlace = official[0][0] == String(contact[0]) ? 'https://github.com/GataNina-Li' : official[1][0] == String(contact[0]) ? 'https://github.com/elrebelde21' : official[2][0] == String(contact[0]) ? 'https://github.com/Azami19' : official[3][0] == String(contact[0]) ? 'https://github.com/Abiguelreyes75' : md    
-lista.push([number, ofc, nombre, description, official[3][0] == String(contact[0]) ? null : correo, lugar, enlace, bio, official[1][0] == String(contact[0]) ? 'https://www.youtube.com/@TheLoliBot-MD' : null]) }  
-lista.push([conn.user.jid.split('@')[0], await conn.getName(conn.user.jid), packname, lenguajeGB.smsContacto8(), mail === '' ? 'centergatabot@gmail.com' : mail, lenguajeGB.smsContacto7(), md, bioBot, yt, ig, fb, paypal, nna])
+description = official[0][0] == String(contact[0]) ? 'Solo temas de MakeBot-MD' : official[1][0] == String(contact[0]) ? 'Solo temas de MakeBot-MD' : official[2][0] == String(contact[0]) ? 'Solo temas de MakeBot-MD' : official[3][0] == String(contact[0]) ? 'Solo temas de MakeBot-MD' : desc === '' ? 'Solo temas de MakeBot-MD' : desc
+correo = official[0][0] == String(contact[0]) ? 'wilsmac68@gmail.com' : official[1][0] == String(contact[0]) ? 'indefinido202@gmail.com' : official[2][0] == String(contact[0]) ? 'wilsmac68@gmail.com' : mail === '' ? lenguajeGB.smsContacto6() : mail
+lugar = official[0][0] == String(contact[0]) ? '🇺🇲 Estados Unidos' : official[1][0] == String(contact[0]) ? '🇺🇲 Estados Unidos' : official[2][0] == String(contact[0]) ? '🇺🇲 Estados Unidos' : official[3][0] == String(contact[0]) ? '🇺🇲 Estados Unidos' : country === '' ? lenguajeGB.smsContacto7() : country
+enlace = official[0][0] == String(contact[0]) ? 'https://github.com/Wilsmac' : official[1][0] == String(contact[0]) ? 'https://github.com/Wilsmac' : official[2][0] == String(contact[0]) ? 'https://github.com/Wilsmac' : official[3][0] == String(contact[0]) ? 'https://github.com/Wilsmac' : md    
+lista.push([number, ofc, nombre, description, official[3][0] == String(contact[0]) ? null : correo, lugar, enlace, bio, official[1][0] == String(contact[0]) ? 'https://www.youtube.com/@Wilsmac' : null]) }  
+lista.push([conn.user.jid.split('@')[0], await conn.getName(conn.user.jid), packname, lenguajeGB.smsContacto8(), mail === '' ? 'wilsmac68@gmail.com' : mail, lenguajeGB.smsContacto7(), md, bioBot, yt, ig, fb, paypal, nna])
 await conn.sendContactArray(m.chat, lista, null, { quoted: fkontak })
 /*function handler(m) {
 const data = global.owner.filter(([id, isCreator]) => id && isCreator) 
