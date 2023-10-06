@@ -13,9 +13,9 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 // EN ➜ Add the Bot number as priority first
 // EN ➜ If you want to receive reports you must use the three parameters (Number, name and true)
 global.owner = [
-['573026191480', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈', true],
-['595975740803', '𝙊𝙬𝙣𝙚𝙧 💖🐈', true], 
-['593968585383'], ['5492266466080'], ['5217294888993'], ['5492266613038'], ['51906662557']]
+['50250101139', '𝐂𝐑𝐄𝐀𝐃𝐎𝐑💋', true],
+['50258115623', '𝐶𝑜𝑙𝑎𝑏𝑜𝑟𝑎𝑑𝑜𝑟', true], 
+['50245370669'], ['14077384440'], ['19042018926']]
 
 global.mods = [] 
 global.prems = []
@@ -82,16 +82,16 @@ global.fetch = fetch
 global.axios = axios
 global.moment = moment	
 
-global.packname = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈'
-global.author = '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
+global.packname = '𝑀𝐴𝐾𝐸𝐵𝑂𝑇-𝑀𝐷'
+global.author = '𝑊𝐼𝐿𝑀𝐸𝑅'
 
 // ES ➜ Está parte es para mostrar el contacto de alguien al usar #contacto
 // EN ➜ This part is to display someone's contact using #contact
 global.official = [ 
-['18059196237', 'Gata Dios 💻', 1], 
-['5492266466080', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
-['59894808483', '𝗖𝘂𝘀𝘁𝗼𝗺𝗲𝗿 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 🥏', 1],
-['5521989092076', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1]] 
+['50250101139', 'Creador💋', 1], 
+['50258115623', '𝐷𝑒𝑠𝑎𝑟𝑟𝑜𝑙𝑙𝑎𝑑𝑜𝑟 𝑂𝑓𝑖𝑐𝑖𝑎𝑙 💻', 1],  
+['14077384440', '𝑆𝑜𝑝𝑜𝑟𝑡𝑒 𝑜𝑓𝑖𝑐𝑖𝑎𝑙 🌺, 1],
+['19042018926', '𝐷𝐸𝑆𝐴𝑅𝑅𝑂𝐿𝐿𝐴𝐷𝑂𝑅𝐴 𝑂𝐹𝐶', 1]] 
 
 global.mail = '' //agrega tú correo
 global.desc = '' //agrega una descripción corta
@@ -101,8 +101,8 @@ global.country = '' //agrega tú país ejemplo: 🇪🇨
 global.vs = '1.3.2-(beta)'
 global.vsJB = '4.5 (Beta)'
 
-global.gt = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿'
-global.yt = 'https://youtube.com/@gatadios'
+global.gt = '𝑀𝐴𝐾𝐸𝐵𝑂𝑇-𝑀𝐷'
+global.yt = 'https://youtube.com/@Wilsmac
 global.yt2 = 'https://www.youtube.com/watch?v=Ko019wvu2Tc&t=71s'
 global.ig = 'https://www.instagram.com/gata_dios'
 global.md = 'https://github.com/GataNina-Li/GataBotLite-MD'
