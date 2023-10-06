@@ -90,7 +90,7 @@ global.author = '𝑊𝐼𝐿𝑀𝐸𝑅'
 global.official = [ 
 ['50250101139', 'Creador💋', 1], 
 ['50258115623', '𝐷𝑒𝑠𝑎𝑟𝑟𝑜𝑙𝑙𝑎𝑑𝑜𝑟 𝑂𝑓𝑖𝑐𝑖𝑎𝑙 💻', 1],  
-['14077384440', '𝑆𝑜𝑝𝑜𝑟𝑡𝑒 𝑜𝑓𝑖𝑐𝑖𝑎𝑙 🌺, 1],
+['14077384440', '𝑆𝑜𝑝𝑜𝑟𝑡𝑒 𝑜𝑓𝑖𝑐𝑖𝑎𝑙 🌺', 1],
 ['19042018926', '𝐷𝐸𝑆𝐴𝑅𝑅𝑂𝐿𝐿𝐴𝐷𝑂𝑅𝐴 𝑂𝐹𝐶', 1]] 
 
 global.mail = '' //agrega tú correo
@@ -104,29 +104,29 @@ global.vsJB = '4.5 (Beta)'
 global.gt = '𝑀𝐴𝐾𝐸𝐵𝑂𝑇-𝑀𝐷'
 global.yt = 'https://youtube.com/@Wilsmac'
 global.yt2 = 'https://www.youtube.com/watch?v=Ko019wvu2Tc&t=71s'
-global.ig = 'https://www.instagram.com/gata_dios'
-global.md = 'https://github.com/GataNina-Li/GataBotLite-MD'
+global.ig = 'https://www.instagram.com/cmwilmer4'
+global.md = 'https://github.com/Wilsmac/MAKEBOT-MD'
 global.fb = 'https://www.facebook.com/groups/872989990425789/'
 
-global.n2 = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A' //CANAL GATABOT
-global.nna = 'https://chat.whatsapp.com/DVhu9S9Zr7cBFFl26N61U3' //UPDATE GATABOT
-global.nn2 = 'https://chat.whatsapp.com/HLXJUIznsbHJ3LF6pTgmh6' //UPDATE 2
-global.nna2 = 'https://chat.whatsapp.com/JRFOdyjNqhwEJcDQoBCHzL' //Help
-global.nn = 'https://chat.whatsapp.com/Ii0hagX0idw4C7Gxwts54x' //Grupo 1
-global.nnn = 'https://chat.whatsapp.com/LGHW0ZwLgpeH7Nsn4vlrWi' //Grupo 2
-global.nnnt = 'https://chat.whatsapp.com/Jvhbjxueer0GSdOw75ZtWR' //Grupo 3
-global.nnntt = 'https://chat.whatsapp.com/Gysm0PMJ4zg7ts0E9t91Hz' //Grupo 4
-global.nnnttt = 'https://chat.whatsapp.com/IZeaMQos8pxEhlyVI6yZaa' //Grupo 5
-global.nnnttt1 = 'https://chat.whatsapp.com/B8lrwGzSUbf7zlZHDAwCQ8' //Grupo 6 COL
-global.nnnttt2 = 'https://chat.whatsapp.com/IlyJBy1fxcw2qAHLSC5YLa' //Grupo 7 COL
-global.nnnttt3 = 'https://chat.whatsapp.com/LVocHnQjrci6dM4TZdmhBH' //Grupo 8 COL
-global.nnnttt4 = 'https://chat.whatsapp.com/IB9Vs7mZ03BBkH3reCU8Dw' //Grupo 9 COL
-global.nnnttt5 = 'https://chat.whatsapp.com/HOCsvLox0Ui7cwzTCeFhPP' //A.T.M.M
-global.paypal = 'https://paypal.me/OficialGD'
-global.asistencia = 'Wa.me/19393844141' //Dudas? escríbeme...
+global.n2 = 'https://chat.whatsapp.com/KCmB0Jzi5G0Ks5T7K2VhS9' //Comunidad
+global.nna = 'https://chat.whatsapp.com/EAxOACyzjB6JhkRvQvw4zl' //UPDATE GATABOT
+global.nn2 = 'https://chat.whatsapp.com/EAxOACyzjB6JhkRvQvw4zl' //UPDATE 2
+global.nna2 = 'https://chat.whatsapp.com/EAxOACyzjB6JhkRvQvw4zl' //Help
+global.nn = 'https://chat.whatsapp.com/EAxOACyzjB6JhkRvQvw4zl' //Grupo 1
+global.nnn = 'https://chat.whatsapp.com/EAxOACyzjB6JhkRvQvw4zl' //anime y social
+global.nnnt = 'https://chat.whatsapp.com/GpgDjNxSXlD7howe6q8Yex' //Grupo antiguo
+global.nnntt = 'https://chat.whatsapp.com/GK9jQ7sY7XRGxhu6UoTOle' //Grupo 4
+global.nnnttt = 'https://chat.whatsapp.com/GK9jQ7sY7XRGxhu6UoTOle' //información
+global.nnnttt1 = 'https://chat.whatsapp.com/Kz78HPcA1f9AFexoaQNGm5' //Grupo 6 COL
+global.nnnttt2 = 'https://chat.whatsapp.com/Kz78HPcA1f9AFexoaQNGm5' //Grupo 7 COL
+global.nnnttt3 = 'https://chat.whatsapp.com/Kz78HPcA1f9AFexoaQNGm5' //Grupo 8 COL
+global.nnnttt4 = 'https://chat.whatsapp.com/GpgDjNxSXlD7howe6q8Yex' //Grupo 9 COL
+global.nnnttt5 = 'https://chat.whatsapp.com/GpgDjNxSXlD7howe6q8Yex' //A.T.M.M
+global.paypal = 'https://paypal.me/'
+global.asistencia = 'Wa.me/50250101139' //Dudas? escríbeme...
 
-global.wm = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈 : 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
-global.igfg = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿'
+global.wm = '𝑀𝐴𝐾𝐸𝐵𝑂𝑇-𝑀𝐷 : 𝑊𝐼𝐿𝑀𝐸𝑅~𝑈𝑁𝐼𝐹𝐼𝑁𝐸𝐷'
+global.igfg = '𝑀𝐴𝐾𝐸𝐵𝑂𝑇-𝑀𝐷'
 global.wait = lenguajeGB['smsMeWait']()
 global.wait2 = lenguajeGB.smsWait()
 global.nomorown = owner[0][0]
