@@ -102,7 +102,7 @@ global.vs = '1.3.2-(beta)'
 global.vsJB = '4.5 (Beta)'
 
 global.gt = '𝑀𝐴𝐾𝐸𝐵𝑂𝑇-𝑀𝐷'
-global.yt = 'https://youtube.com/@Wilsmac
+global.yt = 'https://youtube.com/@Wilsmac'
 global.yt2 = 'https://www.youtube.com/watch?v=Ko019wvu2Tc&t=71s'
 global.ig = 'https://www.instagram.com/gata_dios'
 global.md = 'https://github.com/GataNina-Li/GataBotLite-MD'
